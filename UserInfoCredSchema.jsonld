@@ -1,7 +1,6 @@
 {
     "@context": [
         "https://www.w3.org/ns/credentials/v2",
-        "https://raw.githubusercontent.com/iampawankumar/credentials-schema/main/UserInfoCredSchema.json",
         "https://w3id.org/security/bbs/v1"
     ],
     "id": "bc517022-1d39-4c9d-a740-d21beb37cb16",
@@ -21,7 +20,7 @@
         "type": "JsonSchema",
         "jsonSchema": {
             "$schema": "https://json-schema.org/draft/2020-12/schema",
-            "$id": "https://raw.githubusercontent.com/iampawankumar/credentials-schema/main/UserInfoCredSchema.json",
+            "$id": "https://raw.githubusercontent.com/iampawankumar/credentials-schema/main/UserInfoCredSchema.jsonld",
             "title": "UserInfoCredential",
             "type": "object",
             "properties": {
