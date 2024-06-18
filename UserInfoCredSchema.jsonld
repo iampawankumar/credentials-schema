@@ -1,0 +1,143 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/credentials/v2",
+        "https://raw.githubusercontent.com/iampawankumar/credentials-schema/main/UserInfoCredSchema.json",
+        "https://w3id.org/security/bbs/v1"
+    ],
+    "id": "bc517022-1d39-4c9d-a740-d21beb37cb16",
+    "type": [
+        "VerifiableCredential",
+        "JsonSchemaCredential"
+    ],
+    "issuanceDate": "2024-06-10T08:57:19.479Z",
+    "issuer": "did:fox:testnewhandle09:Gt8M9qpfrFMZ1sAkcCd8xYF2TsFwjxUbNDPkbF9NtF4P",
+    "credentialSchema": {
+    "id": "https://www.w3.org/2022/credentials/v2/json-schema-credential-schema.json",
+    "type": "JsonSchema",
+    "digestSRI": "sha384-S57yQDg1MTzF56Oi9DbSQ14u7jBy0RDdx0YbeV7shwhCS88G8SCXeFq82PafhCrW"
+    },
+    "credentialSubject": {
+        "id": "",
+        "type": "JsonSchema",
+        "jsonSchema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$id": "https://raw.githubusercontent.com/iampawankumar/credentials-schema/main/UserInfoCredSchema.json",
+            "title": "UserInfoCredential",
+            "type": "object",
+            "properties": {
+            "credentialSubject": {
+                "type": "object",
+                "properties": {
+                "id": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "familyName": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "givenName": {
+                    "type": "string",
+                    "format": "string"
+                    
+                },
+                "email": {
+                    "type": "string",
+                    "format": "email"
+                },
+                "telephone": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "address": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "description": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "ipAddress": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "stacks": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "linkedin": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "twitter": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "facebook": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "instagram": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "gmail": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "cid": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "handle": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "defaultValue": {
+                    "type": "string",
+                    "format": "string"
+                },
+                "public": {
+                    "type": "array",
+                    "items": {
+                    "type": "string"
+                    }
+                },
+                "private": {
+                    "type": "array",
+                    "items": {
+                    "type": "string"
+                    }
+                },
+                "type": {
+                    "type": "array",
+                    "items": {
+                    "type": "string"
+                    }
+                }
+                }
+            },
+            "proof": {
+                "type": "string",
+                "format": "string"
+                },
+                "created": {
+                "type": "string",
+                "format": "string"
+                },
+                "proofPurpose": {
+                "type": "string",
+                "format": "string"
+                },
+                "verificationMethod": {
+                "type": "string",
+                "format": "uri"
+                },
+                "proofValue": {
+                "type": "string",
+                "format": "string"
+                }
+            }
+        }
+    }
+}
