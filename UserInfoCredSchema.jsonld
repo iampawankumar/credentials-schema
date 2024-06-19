@@ -8,8 +8,6 @@
         "VerifiableCredential",
         "JsonSchemaCredential"
     ],
-    "issuanceDate": "2024-06-10T08:57:19.479Z",
-    "issuer": "did:fox:testnewhandle09:Gt8M9qpfrFMZ1sAkcCd8xYF2TsFwjxUbNDPkbF9NtF4P",
     "credentialSchema": {
     "id": "https://www.w3.org/2022/credentials/v2/json-schema-credential-schema.json",
     "type": "JsonSchema",
