@@ -1,0 +1,51 @@
+{
+    "@context": {
+      "@version": 1.1,
+      "@protected": true,
+
+      "name": "http://schema.org/name",
+      "identifier": "http://schema.org/identifier",
+
+      "UserInfoCredential": {
+        "@id": "https://w3id.org/traceability#SelfSignedCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "name": "http://schema.org/name",
+          "identifier": "http://schema.org/identifier"
+        }
+      },
+    "PII":{
+    "@id": "https://w3id.org/traceability#SelfSignedCredential",
+    "@context": {
+      "@version": 1.1,
+      "@protected": true,
+
+      "id": "@id",
+      "type": "@type",
+
+        "schema": "http://schema.org/",
+        "givenName":"schema:givenName",
+        "familyName":"schema:familyName",
+        "email":"schema:email",
+        "telephone":"schema:telephone",
+        "description":"schema:description",
+        "address":"schema:address",
+        "facebook":"schema:identifier",
+        "instagram":"schema:identifier",
+        "linkedin":"schema:identifier",
+        "twitter":"schema:identifier",
+        "gmail":"schema:identifier",
+        "defaultValue":"schema:keywords",
+        "stacks":"schema:keywords",
+        "cid":"schema:keywords",
+        "ipAddress":"schema:identifier",
+        "public": "schema:keywords",
+        "private": "schema:keywords",
+        "handle": "schema:keywords"
+  }
+}
+}
+}
