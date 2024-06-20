@@ -3,7 +3,6 @@
         "https://www.w3.org/ns/credentials/v2",
         "https://w3id.org/security/bbs/v1"
     ],
-    "id": "bc517022-1d39-4c9d-a740-d21beb37cb16",
     "type": [
         "VerifiableCredential",
         "JsonSchemaCredential"
@@ -14,7 +13,6 @@
     "digestSRI": "sha384-S57yQDg1MTzF56Oi9DbSQ14u7jBy0RDdx0YbeV7shwhCS88G8SCXeFq82PafhCrW"
     },
     "credentialSubject": {
-        "id": "",
         "type": "JsonSchema",
         "jsonSchema": {
             "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -101,12 +99,6 @@
                     }
                 },
                 "private": {
-                    "type": "array",
-                    "items": {
-                    "type": "string"
-                    }
-                },
-                "type": {
                     "type": "array",
                     "items": {
                     "type": "string"
