@@ -1,7 +1,5 @@
  {
-        /* eslint-disable */
         "@context": {
           "@vocab": "https://raw.githubusercontent.com/iampawankumar/credentials-schema/main/UserInfoCredSchema.jsonld"
         }
-        /* eslint-enable */
     }
