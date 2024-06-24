@@ -1,5 +1,3 @@
-
-[
   {
     "https://www.w3.org/2018/credentials#credentialSchema": [
       {
@@ -77,4 +75,3 @@
       "https://www.w3.org/2018/credentials#JsonSchemaCredential"
     ]
   }
-]
